@@ -1,0 +1,18 @@
+import sys
+import math
+import autodesk
+import rpw
+import rjm
+import rpws
+import rsparam
+import pyrevit
+import clr
+import clr_loader
+import pythonnet
+import pyrevit
+
+clr.AddReference('RevitAPI')
+clr.AddReference('RevitAPIUI')
+clr.AddReference("RevitNodes")
+
+from autodesk.Revit.UI import *
